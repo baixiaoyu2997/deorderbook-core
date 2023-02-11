@@ -1,0 +1,77 @@
+// 此文件非必要严禁修改，修改前询问相关负责人
+{
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css][postcss][less][scss][html][vue]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+  "stylelint.validate": ["css", "less", "postcss", "vue", "scss"],
+  "[javascript][javascriptreact][typescript][typescriptreact][html][vue]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html"
+  ],
+  "stylelint.snippet": ["css", "less", "postcss", "vue", "scss"],
+  "css.validate": false, // 防止css草案特性报错，校验交给stylelint处理
+  "postcss.validate": false, // 禁用postcss校验
+  "files.associations": {
+    "*.css": "postcss" // css关联到postcss扩展
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css" // emmet支持postcss
+  },
+  "docthis.includeDescriptionTag": true,
+  "docthis.includeMemberOfOnClassMembers": false,
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "prettier.proseWrap": "never",
+  // 指定默认格式化插件
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "volar.codeLens.references": false,
+  "volar.completion.autoImportComponent": false,
+  "cSpell.words": [
+    "Accu",
+    "BHODL",
+    "BTCB",
+    "WBTC",
+    "commitlint",
+    "defu",
+    "deorder",
+    "deorderbook",
+    "disableds",
+    "esbuild",
+    "headerbtn",
+    "hodl",
+    "Huobi",
+    "MARKETCAP",
+    "nuxi",
+    "optoin",
+    "Pancakeswap",
+    "pinia",
+    "pnpm",
+    "stylelint",
+    "UHODL",
+    "unplugin",
+    "Unstake",
+    "vueuse",
+    "walletconnect"
+  ],
+  "git.autoStash": true,
+  "git.ignoreRebaseWarning": true,
+  "git.autofetch": true
+}

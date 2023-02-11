@@ -1,0 +1,15 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "exclude": [
+    "node_modules",
+    ".output",
+    "dist"
+  ],
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "types": [
+      "element-plus/global",
+      "vite/client"
+    ]
+  }
+}
