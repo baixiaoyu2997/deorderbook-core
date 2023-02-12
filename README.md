@@ -1,9 +1,5 @@
 # DeOrderBook Core
 
-test
-
-# DeOrderBook Core
-
 ## Use
 
 ### Add to you repo
